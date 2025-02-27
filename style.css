@@ -1,0 +1,128 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://t4.ftcdn.net/jpg/00/63/42/31/240_F_63423138_KW22ptbqHvAhormazNMCP7eJ8VfLwx46.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #ff8c00;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Content Styling */
+  .content {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 400px; /* Set width to 400px */
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  /* Paragraph Styling */
+  .my-id {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styling */
+  .btn {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: blue;
+  }
+  
+  /* Navigation Styling */
+  nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list a {
+    color:blue;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    color: blue;
+  }
+  
+  /* Link Color Change */
+  a {
+    color: white; /* Set link color to red */
+  }
+  
+  a:hover {
+    color: blue; /* Change color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    .content {
+      width: 90%;
+    }
+  
+    .btn {
+      font-size: 1rem;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+    }
+  
+    .nav-list li {
+      margin-bottom: 10px;
+    }
+  }
+  
